@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "og_images",
+  "info": {
+    "singularName": "og-image",
+    "pluralName": "og-images",
+    "displayName": "OG Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

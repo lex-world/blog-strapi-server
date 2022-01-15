@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latest_posts",
+  "info": {
+    "singularName": "latest-post",
+    "pluralName": "latest-posts",
+    "displayName": "Latest Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post"
+    }
+  }
+}
